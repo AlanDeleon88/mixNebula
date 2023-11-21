@@ -20,4 +20,5 @@
     width:85%;
     /* border: 1px solid blue; */
     height: 65%;
+    overflow-y: scroll;
 }

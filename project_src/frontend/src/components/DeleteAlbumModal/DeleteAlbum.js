@@ -14,6 +14,7 @@ const DeleteAlbum = ({album, showModal}) =>{
             const data = await res.json();
             const errors = data.message;
             window.alert(errors); //!temp
+            
         })
     }
 

@@ -24,7 +24,7 @@
     overflow-x: hidden;
 
 }
-/* This is to select a specific container to edit its scroll bar */
+/* ! This is to select a specific container to edit its scroll bar */
 div.logged-splash-featured-container::-webkit-scrollbar{
     width: 0px;
 }
