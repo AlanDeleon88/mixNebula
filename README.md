@@ -13,7 +13,7 @@ The next step is to setup all the environment variables in the backend.
 3. In the console, run `npm start` to start the backend server.
 4. Change to the project_src/frontend folder and run `npm start` to start the react application.
 
-## About SoundCloud
+## About mixNebula
 This application features the use of React/Redux libraries for the frontend, and the backend is built off of express.js and postgressSQL. This SoundCloud clone allows a
 user to browse the sites songs and albums, and create an account and post mock songs and albums. A user also has the ability to edit their posts. All posts and edits are
 validated by the backend server to ensure only valid data is passed in.
