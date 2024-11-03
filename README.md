@@ -1,4 +1,4 @@
-# SoundCloud
+# mixNebula
 <a href=https://aa-soundcloud-project-2022.herokuapp.com/> Live Link </a>
 
 ## Setup
