@@ -65,7 +65,6 @@ const UserProfilePage = () =>{
 
                             </Route>
 
-
                         </Switch>
                     </div>
                     <div className="user-page-stats-container">

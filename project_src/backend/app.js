@@ -55,7 +55,10 @@ app.use( //! need to ask about how this works. not sure if its supposed to rejec
 app.use(routes)
 
 //rerource-not found middleware
+//! catch all for any route not defined in routes will hit as the next middleware if none of the route handlers catch the request, different from the
+//! two error handler middle ware below because it only has 3 params.
 app.use((_req, _res, next) => {
+
     const err = new Error("The requsted resources couldn't be found.");
     err.title = 'Resource Not Found';
     err.errors = ["The requested resources couldn't be found"];

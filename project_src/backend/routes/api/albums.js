@@ -280,7 +280,7 @@ router.put( //* edit album by id
         }
         // console.log(album.dataValues.userId);
         if(album.dataValues.userId === currentUserId){
-            console.log('TEST-----------------------------------------------------',imageUrl);
+            // console.log('TEST-----------------------------------------------------',imageUrl);
             await album.update({
                 title,
                 description : description,

@@ -32,6 +32,7 @@ const CreateSongForm = ({setShowModal}) =>{
                 dispatch(loadUserAlbums(user.id))
                 dispatch(getArtist(user.id))
                 setShowModal(false)
+                // console.log(res);
             })
             .catch(async (res) =>{
                 if(res){
